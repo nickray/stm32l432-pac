@@ -10,7 +10,7 @@ rustup component add rustfmt
 
 rm -rf src
 mkdir src
-svd2rust -i ./stm32l432.svd
+svd2rust -i ./stm32l4x2.svd
 form -i lib.rs -o src
 rm lib.rs
 cargo fmt

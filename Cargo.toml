@@ -1,14 +1,14 @@
 [package]
 version = "0.0.1"
 authors = [
-  "nickray <nicolas.stalder@acm.org>",
+  "nickray <n@stalder.io>",
 ]
-description = "Peripheral access API for stm32l432 microcontrollers"
-documentation = "https://docs.rs/stm32l432-pac"
-keywords = ["no-std", "arm", "cortex-m", "stm32", "stm32l432"]
+description = "Peripheral access API for stm32l4x2 microcontrollers"
+documentation = "https://docs.rs/stm32l4x2-pac"
+keywords = ["no-std", "arm", "cortex-m", "stm32", "stm32l4x2"]
 license = "MIT OR Apache-2.0"
-name = "stm32l432-pac"
-repository = "https://github.com/nickray/stm32l432-pac"
+name = "stm32l4x2-pac"
+repository = "https://github.com/nickray/stm32l4x2-pac"
 edition = "2018"
 
 [dependencies]
