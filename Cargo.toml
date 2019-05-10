@@ -22,3 +22,9 @@ version = "0.6.8"
 
 [features]
 rt = ["cortex-m-rt/device"]
+stm32l4x1 = []
+stm32l4x2 = []
+stm32l4x3 = []
+stm32l4x5 = []
+stm32l4x6 = []
+default = ["stm32l4x2"]
